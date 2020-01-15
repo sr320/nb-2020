@@ -1,6 +1,5 @@
 .ipynb*
-P_generosa/data/Pg_val_1_bismark_bt2_pe.deduplicated.bismark.cov
-P_generosa/data/geoduck_transcriptome.fasta
+P_generosa/data/Pg_val_1_bismark_bt2_pe.deduplicated.bismark.covP_generosa/data/geoduck_transcriptome.fasta
 P_generosa/data/geoduck_transcriptome.00.nhr
 P_generosa/data/geoduck_transcriptome.00.nin
 P_generosa/data/geoduck_transcriptome.00.nsq
