@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="Contig59:1-13712" path="/Users/sr320/Documents/GitHub/nb-2020/O_lurida/igv/020420.xml" version="8">
+<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="Contig155:1-35223" nextAutoscaleGroup="2" path="/Users/sr320/Documents/GitHub/nb-2020/O_lurida/igv/020420.xml" version="8">
     <Resources>
         <Resource path="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.exon.gff"/>
         <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081_TE-Cg.gff"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/genome-features/20190709-Olurida_v081.stringtie.gtf"/>
         <Resource path="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.gene.gff"/>
         <Resource path="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.mRNA.gff"/>
         <Resource path="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.CDS.gff"/>
@@ -14,6 +15,7 @@
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.exon.gff" name="Olurida_v081-20190709.exon.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.CDS.gff" name="Olurida_v081-20190709.CDS.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081_TE-Cg.gff" name="Olurida_v081_TE-Cg.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/genome-features/20190709-Olurida_v081.stringtie.gtf" name="20190709-Olurida_v081.stringtie.gtf" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
     </Panel>
     <PanelLayout dividerFractions="0.01090909090909091"/>
     <HiddenAttributes>

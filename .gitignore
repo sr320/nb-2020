@@ -8,3 +8,5 @@ P_generosa/data/geoduck_transcriptome.nin
 P_generosa/data/geoduck_transcriptome.nsq
 P_generosa/data/Panopea-generosa-vv0.74.a4.5d9637f372b5d-publish.genes.fna
 P_generosa/data/geoduck_transcriptome.fasta
+P_generosa/analyses/Panopea-generosa-genes.fna
+P_generosa/data/Pg_val_1_bismark_bt2_pe.deduplicated.bismark.cov
