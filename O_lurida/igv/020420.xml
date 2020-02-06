@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="Contig328:1-27571" nextAutoscaleGroup="4" path="/Users/sr320/Documents/GitHub/nb-2020/O_lurida/igv/020420.xml" version="8">
+<Session genome="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="Contig27574:1-87411" nextAutoscaleGroup="5" path="/Users/sr320/Documents/GitHub/nb-2020/O_lurida/igv/020420.xml" version="8">
     <Resources>
-        <Resource path="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/data/HCSS_Afilt32m70_01_pp90.vcf"/>
         <Resource path="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.exon.gff"/>
         <Resource path="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081_TE-Cg.gff"/>
-        <Resource path="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/genome-features/20190709-Olurida_v081.stringtie.gtf"/>
-        <Resource path="https://gannet.fish.washington.edu/seashell/bu-mox/scrubbed/0620/zr1394_all_s456_trimmed_bismark_bt2.deduplicated.sorted.bam"/>
-        <Resource path="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.gene.gff"/>
         <Resource path="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.mRNA.gff"/>
         <Resource path="https://gannet.fish.washington.edu/seashell/bu-mox/scrubbed/0620/zr1394_all_s456_trimmed_bismark_bt2.deduplicated.bedGraph.gz"/>
-        <Resource path="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/data/HCSS_Afilt32m70_01_pp90_m75.recode.vcf"/>
         <Resource path="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.CDS.gff"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/data/HCSS_Afilt32m70_01_pp90.vcf"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/genome-features/20190709-Olurida_v081.stringtie.gtf"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/analyses/DMGs.bed"/>
+        <Resource path="https://gannet.fish.washington.edu/seashell/bu-mox/scrubbed/0620/zr1394_all_s456_trimmed_bismark_bt2.deduplicated.sorted.bam"/>
+        <Resource path="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.gene.gff"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/analyses/dml25.bed"/>
+        <Resource path="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/data/HCSS_Afilt32m70_01_pp90_m75.recode.vcf"/>
     </Resources>
-    <Panel height="40" name="DataPanel" width="1115">
-        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/seashell/bu-mox/scrubbed/0620/zr1394_all_s456_trimmed_bismark_bt2.deduplicated.bedGraph.gz" name="zr1394_all_s456_trimmed_bismark_bt2.deduplicated.bedGraph.gz" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+    <Panel height="142" name="DataPanel" width="1903">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/analyses/DMGs.bed" name="DMGs.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/analyses/dml25.bed" name="dml25.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;100.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/seashell/bu-mox/scrubbed/0620/zr1394_all_s456_trimmed_bismark_bt2.deduplicated.bedGraph.gz" name="zr1394_all_s456_trimmed_bismark_bt2.deduplicated.bedGraph.gz" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
         </Track>
     </Panel>
-    <Panel height="1220" name="Panel1580847250192" width="1115">
+    <Panel height="118" name="Panel1580847250192" width="1903">
         <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;30.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/seashell/bu-mox/scrubbed/0620/zr1394_all_s456_trimmed_bismark_bt2.deduplicated.sorted.bam_coverage" name="zr1394_all_s456_trimmed_bismark_bt2.deduplicated.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="85.0" minimum="0.0" type="LINEAR"/>
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="16.0" minimum="0.0" type="LINEAR"/>
         </Track>
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="60" id="https://gannet.fish.washington.edu/seashell/bu-mox/scrubbed/0620/zr1394_all_s456_trimmed_bismark_bt2.deduplicated.sorted.bam_junctions" name="zr1394_all_s456_trimmed_bismark_bt2.deduplicated.sorted.bam Junctions" sortable="false" visible="false" windowFunction="count">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
@@ -28,13 +32,13 @@
             <RenderOptions/>
         </Track>
     </Panel>
-    <Panel height="1735" name="Panel1580858503119" width="1115">
+    <Panel height="1735" name="Panel1580858503119" width="1903">
         <Track SQUISHED_ROW_HEIGHT="1" altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorMode="GENOTYPE" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/data/HCSS_Afilt32m70_01_pp90.vcf" name="HCSS_Afilt32m70_01_pp90.vcf" renderer="BASIC_FEATURE" siteColorMode="ALLELE_FREQUENCY" sortable="false" visible="true" windowFunction="count"/>
     </Panel>
-    <Panel height="1735" name="Panel1580858575277" width="1115">
+    <Panel height="1735" name="Panel1580858575277" width="1903">
         <Track SQUISHED_ROW_HEIGHT="1" altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorMode="GENOTYPE" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/data/HCSS_Afilt32m70_01_pp90_m75.recode.vcf" name="HCSS_Afilt32m70_01_pp90_m75.recode.vcf" renderer="BASIC_FEATURE" siteColorMode="ALLELE_FREQUENCY" sortable="false" visible="true" windowFunction="count"/>
     </Panel>
-    <Panel height="240" name="FeaturePanel" width="1115">
+    <Panel height="388" name="FeaturePanel" width="1903">
         <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.gene.gff" name="Olurida_v081-20190709.gene.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="https://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081-20190709.mRNA.gff" name="Olurida_v081-20190709.mRNA.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
@@ -43,7 +47,7 @@
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/halfshell/genomic-databank/Olurida_v081_TE-Cg.gff" name="Olurida_v081_TE-Cg.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://raw.githubusercontent.com/sr320/paper-oly-mbdbs-gen/master/genome-features/20190709-Olurida_v081.stringtie.gtf" name="20190709-Olurida_v081.stringtie.gtf" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
     </Panel>
-    <PanelLayout dividerFractions="0.03272727272727273,0.28545454545454546,0.5381818181818182,0.7909090909090909"/>
+    <PanelLayout dividerFractions="0.16179775280898875,0.3,0.4337078651685393,0.5584269662921348"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
