@@ -1,6 +1,11 @@
 # nb-2020
 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sr320/nb-2020/master)
+
+[nbviewer](https://nbviewer.jupyter.org/github/sr320/nb-2020/tree/master/)
+
+
 ```
 wget -r \
 --no-directories --no-parent \
