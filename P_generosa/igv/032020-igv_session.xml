@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="http://gannet.fish.washington.edu/seashell/snaps/Panopea-generosa-v1.0.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="Scaffold_06:8881370-9554992" nextAutoscaleGroup="3" path="/Users/sr320/Documents/GitHub/nb-2020/P_generosa/igv/032020-igv_session.xml" version="8">
+<Session genome="http://gannet.fish.washington.edu/seashell/snaps/Panopea-generosa-v1.0.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="Scaffold_17:4744960-5119919" nextAutoscaleGroup="5" path="/Users/sr320/Documents/GitHub/nb-2020/P_generosa/igv/032020-igv_session.xml" version="8">
     <Resources>
         <Resource path="https://gannet.fish.washington.edu/tmp/031920-trimtest-nod/sa/EPI-167_S10_L002_5x.bedgraph"/>
         <Resource path="https://gannet.fish.washington.edu/tmp/031920-trimtest/sa/EPI-167_S10_L002_5x.bedgraph"/>
         <Resource path="https://gannet.fish.washington.edu/tmp/031920-trimtest/tgd/EPI-167_S10_L002_5x.bedgraph"/>
+        <Resource path="https://gannet.fish.washington.edu/tmp/031920-trimtest-nod/tgd/EPI-167_S10_L002_R1_001_val_1_bismark_bt2_pe.sorted.bam"/>
+        <Resource path="https://gannet.fish.washington.edu/tmp/031920-trimtest-nod/tgd/EPI-167_S10_L002_5x.bedgraph"/>
     </Resources>
-    <Panel height="502" name="DataPanel" width="1133">
+    <Panel height="346" name="DataPanel" width="1133">
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/tmp/031920-trimtest/sa/EPI-167_S10_L002_5x.bedgraph" name="SA-dedup_5x.bedgraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
         </Track>
@@ -15,11 +17,25 @@
         <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/tmp/031920-trimtest-nod/sa/EPI-167_S10_L002_5x.bedgraph" name="SA-nodedup_5x.bedgraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
         </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/tmp/031920-trimtest-nod/tgd/EPI-167_S10_L002_5x.bedgraph" name="TGD-nodedup_5x.bedgraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
     </Panel>
-    <Panel height="79" name="FeaturePanel" width="1133">
+    <Panel height="191" name="Panel1584719211482" width="1133">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;17.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/tmp/031920-trimtest-nod/tgd/EPI-167_S10_L002_R1_001_val_1_bismark_bt2_pe.sorted.bam_coverage" name="EPI-167_S10_L002_R1_001_val_1_bismark_bt2_pe.sorted.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="17.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="60" id="https://gannet.fish.washington.edu/tmp/031920-trimtest-nod/tgd/EPI-167_S10_L002_R1_001_val_1_bismark_bt2_pe.sorted.bam_junctions" name="EPI-167_S10_L002_R1_001_val_1_bismark_bt2_pe.sorted.bam Junctions" sortable="false" visible="false" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/tmp/031920-trimtest-nod/tgd/EPI-167_S10_L002_R1_001_val_1_bismark_bt2_pe.sorted.bam" name="EPI-167_S10_L002_R1_001_val_1_bismark_bt2_pe.sorted.bam" sortable="true" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="39" name="FeaturePanel" width="1133">
         <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
     </Panel>
-    <PanelLayout dividerFractions="0.8571428571428571"/>
+    <PanelLayout dividerFractions="0.5918367346938775,0.9251700680272109"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
