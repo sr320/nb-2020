@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="http://gannet.fish.washington.edu/seashell/snaps/Panopea-generosa-v1.0.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="Scaffold_06:1-61759565" nextAutoscaleGroup="2" path="/Users/sr320/Documents/GitHub/nb-2020/P_generosa/igv/032020-igv_session.xml" version="8">
+    <Resources>
+        <Resource path="https://gannet.fish.washington.edu/tmp/031920-trimtest/sa/EPI-167_S10_L002_5x.bedgraph"/>
+        <Resource path="https://gannet.fish.washington.edu/tmp/031920-trimtest/tgd/EPI-167_S10_L002_5x.bedgraph"/>
+    </Resources>
+    <Panel height="468" name="DataPanel" width="1133">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/tmp/031920-trimtest/sa/EPI-167_S10_L002_5x.bedgraph" name="SA-dedup_5x.bedgraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="https://gannet.fish.washington.edu/tmp/031920-trimtest/tgd/EPI-167_S10_L002_5x.bedgraph" name="TGD-dedup_5x.bedgraph" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="113" name="FeaturePanel" width="1133">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.7993197278911565"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
