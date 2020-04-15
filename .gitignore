@@ -13,3 +13,5 @@ P_generosa/data/Pg_val_1_bismark_bt2_pe.deduplicated.bismark.cov
 O_lurida/analyses/Olurida_v081.geneID.fa
 O_lurida/analyses/Olurida_v081.gene.fa
 O_lurida/data/Olurida_v081.fa
+C_bairdi/analyses/C_bairdi_transcriptome_01
+C_bairdi/data/20200408.C_bairdi.megan.Trinity.fasta
