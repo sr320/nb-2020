@@ -1,0 +1,13 @@
+{
+	"n_targets": 40435,
+	"n_bootstraps": 0,
+	"n_processed": 47188500,
+	"n_pseudoaligned": 29084150,
+	"n_unique": 22338681,
+	"p_pseudoaligned": 61.6,
+	"p_unique": 47.3,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Wed Apr 15 14:05:09 2020",
+	"call": "kallisto quant -i analyses/C_bairdi_transcriptome_01 -t 4 -o analyses/329777_out /Volumes/block/c_bairdi/329777_S4_L001_R1_001.fastq.gz /Volumes/block/c_bairdi/329777_S4_L001_R2_001.fastq.gz /Volumes/block/c_bairdi/329777_S4_L002_R1_001.fastq.gz /Volumes/block/c_bairdi/329777_S4_L002_R2_001.fastq.gz"
+}
