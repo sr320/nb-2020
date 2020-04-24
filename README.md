@@ -17,5 +17,5 @@ wget -r \
 bs rsync
 ```
 /volume2/web/seashell/bu-mox$ 
-rsync -avz --exclude '*_to_*' --exclude 'CHG_*.txt' --exclude 'CHH_*.txt'--exclude 'CpG_*txt' --progress sr320@mox.hyak.uw.edu:/gscratch/scrubbed/sr320/ scrubbed/
+rsync -avz --exclude '*_to_*' --exclude 'CHG_*.txt' --exclude 'CHH_*.txt' --exclude 'CpG_*txt' --progress sr320@mox.hyak.uw.edu:/gscratch/scrubbed/sr320/ scrubbed/
 ```
