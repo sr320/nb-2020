@@ -1,0 +1,13 @@
+{
+	"n_targets": 40435,
+	"n_bootstraps": 0,
+	"n_processed": 17538147,
+	"n_pseudoaligned": 11599182,
+	"n_unique": 8056694,
+	"p_pseudoaligned": 66.1,
+	"p_unique": 45.9,
+	"kallisto_version": "0.46.2",
+	"index_version": 10,
+	"start_time": "Sun May 17 21:01:08 2020",
+	"call": "kallisto quant -i /Users/sr320/Documents/GitHub/nb-2020/C_bairdi/analyses/C_bairdi_transcriptome_01 -t 4 -o /Users/sr320/Documents/GitHub/nb-2020/C_bairdi/analyses/380823_cold 380823_S4_L001_R1_001.fastp-trim.202004144852.fq.gz 380823_S4_L001_R2_001.fastp-trim.202004144852.fq.gz 380823_S4_L002_R1_001.fastp-trim.202004145106.fq.gz 380823_S4_L002_R2_001.fastp-trim.202004145106.fq.gz"
+}
